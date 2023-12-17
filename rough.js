@@ -35,5 +35,18 @@ function fac(n) {
   return num;
 }
 
+function fac2(n) {
+  num = 1;
+  for (let i = 2; i <= n; i++) {
+    num *= i;
+  }
+  return num;
+}
+
+console.log(fac2(4));
+console.log(fac2(5));
+console.log(fac2(0));
+
 console.log(fac(4));
 console.log(fac(5));
+console.log(fac(0));
