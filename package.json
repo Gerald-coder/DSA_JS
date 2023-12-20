@@ -5,7 +5,7 @@
   "main": "rough.js",
   "scripts": {
     "start": "node rough",
-    "dev": "nodemon rough",
+    "dev": "nodemon bitwise",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
