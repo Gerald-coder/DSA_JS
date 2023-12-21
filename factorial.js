@@ -16,6 +16,15 @@ const factorial = (n) => {
   return fac;
 };
 
-console.log(factorial(0));
-console.log(factorial(4));
-console.log(factorial(5));
+// console.log(factorial(0));
+// console.log(factorial(4));
+// console.log(factorial(5));
+
+// recursion
+function fac(n) {
+  if (n === 0) {
+    return 1;
+  }
+  return n * fac(n - 1);
+}
+console.log(fac(4));

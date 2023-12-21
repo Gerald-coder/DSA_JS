@@ -5,7 +5,7 @@
   "main": "rough.js",
   "scripts": {
     "start": "node rough",
-    "dev": "nodemon fibonacciSequence",
+    "dev": "nodemon factorial",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
