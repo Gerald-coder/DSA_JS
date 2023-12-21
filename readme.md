@@ -74,9 +74,11 @@ note, when using either forEach, map, reduce and filter , this are methods used 
 
 # RECURSION
 
-This is a techninque where a solution depends on solutions to smaller instances of same problem, it is simply a function calling itself
+This is a techninque where a solution depends on solutions to smaller instances of same problem, it is simply a function calling itself. any iterative function (with a loop) can be recursive instead. it is important to know that recursion is not an optimistic or a best performance approach
 
 # properties of recursion
 
 1. every recursion needs to have a base case, or a condition to terminate the recursion, else you have in infinite loop which can crash your program, it is necesary when you want to have repeatiive tasks from a function
-2. A recursive solution may be far worst than an interative solution - it is not always the best solution
+2. a statement to run
+3. decrement or control statement
+4. A recursive solution may be far worst than an interative solution - it is not always the best solution
